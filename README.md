@@ -7,7 +7,7 @@ Generates swagger-ui json files for rails apps with APIs. You add the swagger DS
 
 ## Swagger Version Specification Support
 
-This project supports elements of the v2.0 swagger specification. only for simple use v2 specification used for myself. not yet realize senior function, but is enough to generate api docs for rails project, and just need to declare paraneters then all other is same with a rails project. I'm open to accepting a PR on  this. Contact me if you are interested in helping with that effort - thanks!
+This project supports elements of the v2.0 swagger specification. only simple function v2.0 specification. not yet realize senior function, but is enough to generate api docs for rails project, and just need to declare paraneters then anything other is same with a rails project. I'm open to accepting a PR on  this. Contact me if you are interested in helping with that effort - thanks!
 
 ## Example usage
 
