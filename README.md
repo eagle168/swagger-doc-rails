@@ -441,7 +441,7 @@ api-docs.json output:
     supportedSubmitMethods: ['get', 'post', 'put', 'delete'],
     ... ... ...})
 ```
-open your browser and typed  http://localhost:3000/swagger-ui/dist/index.html, then you can see the
+open your browser and type http://localhost:3000/swagger-ui/dist/index.html, then you can see the
 swagger-ui home page which lists your apis
 
 ## Thanks to our contributors
@@ -450,7 +450,8 @@ Welcome contributors for making swagger-doc-railss even better.
 
 ## Related Projects
 
-**[@fotinakis](https://github.com/richhollis/swagger-docs)**
+**[@swagger-docs](https://github.com/richhollis/swagger-docs)**
+**[@swagger-ui](https://github.com/swagger-api/swagger-ui.git)**
 
 ## Contributing
 
