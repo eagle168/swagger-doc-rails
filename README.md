@@ -27,27 +27,27 @@ def index
 end
 
 swagger_api :create do
-      summary "create a user"
-      param :query, :nickname, :string, :required, "nickname"
-      param_list :query, :gender, :string, :required, "gender", [ "male", "female" ]
-      param :query, :email, :string, :required, "email"
-      param :query, :phone, :string, :required, "phone"
-      response :unauthorized
-      response :not_acceptable
-    end
-    def create
-      # do anything like you do in rails
-      render json: {
-        status: 200,
-        msg: 'ok',
-        data: {
-          nickname: params[:nickname],
-          gender: params[:gender],
-          email: params[:email],
-          phone: params[:phone]
-        }
-      }
-    end
+  summary "create a user"
+  param :query, :nickname, :string, :required, "nickname"
+  param_list :query, :gender, :string, :required, "gender", [ "male", "female" ]
+  param :query, :email, :string, :required, "email"
+  param :query, :phone, :string, :required, "phone"
+  response :unauthorized
+  response :not_acceptable
+end
+def create
+  # do anything like you do in rails
+  render json: {
+    status: 200,
+    msg: 'ok',
+    data: {
+      nickname: params[:nickname],
+      gender: params[:gender],
+      email: params[:email],
+      phone: params[:phone]
+    }
+  }
+end
 ```
 
 ## Installation
