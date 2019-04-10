@@ -451,6 +451,7 @@ Welcome contributors for making swagger-doc-railss even better.
 ## Related Projects
 
 **[@swagger-docs](https://github.com/richhollis/swagger-docs)**
+
 **[@swagger-ui](https://github.com/swagger-api/swagger-ui.git)**
 
 ## Contributing
