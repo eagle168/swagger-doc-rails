@@ -10,7 +10,7 @@ Gem::Specification.new do |spec|
   spec.email         = ["zx.he@163.com"]
   spec.description   = %q{Generates json files for rails apps to use with swagger-ui}
   spec.summary       = %q{Generates swagger-ui json files for rails apps with APIs. You add the swagger DSL to your controller classes and then run one rake task to generate the json files.}
-  spec.homepage      = "https://github.com/richhollis/swagger-docs"
+  spec.homepage      = "https://github.com/eagle168/swagger-doc-rails"
   spec.license       = "MIT"
 
   spec.files         = `git ls-files`.split($/)
