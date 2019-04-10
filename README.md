@@ -429,6 +429,21 @@ api-docs.json output:
 
 ```
 
+### integration swagger-ui
+```sh
+  cd app_name/public
+  git clone https://github.com/swagger-api/swagger-ui.git
+  vim swagger-ui/dist/index.html
+  # change url to http://localhost:3000/api-docs.json (any url of yours)
+  window.swaggerUi = new SwaggerUi({
+    url: "http://localhost:3000/api-docs.json",
+    dom_id: "swagger-ui-container",
+    supportedSubmitMethods: ['get', 'post', 'put', 'delete'],
+    ... ... ...})
+```
+open your browser and typed  http://localhost:3000/swagger-ui/dist/index.html, then you can see the
+swagger-ui home page which lists your apis
+
 ## Thanks to our contributors
 
 Welcome contributors for making swagger-doc-railss even better.
