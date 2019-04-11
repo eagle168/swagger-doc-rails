@@ -339,35 +339,35 @@ api-docs.json output:
     },
     "/users/": {
       "post": {
-        "summary": "创建一个新用户",
+        "summary": "create a new user",
         "description": "User Management",
         "parameters": [
           {
             "name": "nickname",
             "in": "query",
             "required": true,
-            "description": "昵称",
+            "description": "nickname",
             "type": "string"
           },
           {
             "name": "gender",
             "in": "query",
             "required": true,
-            "description": "性别",
+            "description": "gender",
             "type": "string"
           },
           {
             "name": "email",
             "in": "query",
             "required": true,
-            "description": "邮箱",
+            "description": "email",
             "type": "string"
           },
           {
             "name": "phone",
             "in": "query",
             "required": true,
-            "description": "手机",
+            "description": "phone",
             "type": "string"
           }
         ],
